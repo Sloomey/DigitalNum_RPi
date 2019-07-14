@@ -1,5 +1,9 @@
 import LEDarea as area
 
+""" This file is used to have each number be displayed through LEDs (every
+    number 0-9) using a function. The function's parameter takes a number which
+    is the number that gets displayed with LEDs. """
+
 def digit(num):
     if num == 0:
         area.MIDDLE_TOP()
