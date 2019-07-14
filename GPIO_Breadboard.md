@@ -1,6 +1,7 @@
 # How the breadboard and GPIO pins are set up.
 ## I am using a Raspberry Pi 3 Model B+
-![The Breadboard I will being using as an example.](https://images-na.ssl-images-amazon.com/images/I/51kAyh7busL._AC_SY400_.jpg)
+![The Breadboard I will be using as an example.](https://images-na.ssl-images-amazon.com/images/I/51kAyh7busL._AC_SY400_.jpg)
+The breadboard I will be using as an example.
 ### The materials needed:
 * 14 LEDs
 * 14 220 ohm 5% resistors 
