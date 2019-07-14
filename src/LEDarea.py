@@ -3,6 +3,8 @@ import RPi.GPIO as GPIO
 """ This file contains the locations for every LED (in twos)
     so it can easily be called. This helps clear up confusion. """
 
+GPIO.setmode(GPIO.BOARD)
+
 GPIO.setup(7, GPIO.OUT)
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(12, GPIO.OUT)
