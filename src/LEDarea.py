@@ -1,22 +1,12 @@
 import RPi.GPIO as GPIO
 
 """ This file contains the locations for every LED (in twos)
-    so it can easily be called.
-    This helps clear up confusion. """
+    so it can easily be called. This helps clear up confusion. """
 
 GPIO.setmode(GPIO.BOARD)
 
-
-
-
-
-
-
-
-
-
 def MIDDLE_TOP():
-    GPIO.setup(12, GPIO.OUT)
+    GPIO.setup(12, GPIO.OUT)s
     GPIO.setup(7, GPIO.OUT)
     GPIO.output(12, True)
     GPIO.output(7, True)
