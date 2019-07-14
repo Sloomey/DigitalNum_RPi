@@ -1,13 +1,13 @@
-#How the breadboard and GPIO pins are set up.
-##I am using a Raspberry Pi 3 Model B+
-![The Breadboard I will being using as an example.] (https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjBwruziLPjAhUYoZ4KHXvPAOMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2FBB400-Solderless-Plug-BreadBoard-tie-points%2Fdp%2FB0040Z1ERO&psig=AOvVaw3gBsnIywCaxnGCU9otZBE-&ust=1563147506071953)
-###The materials needed:
+# How the breadboard and GPIO pins are set up.
+## I am using a Raspberry Pi 3 Model B+
+![The Breadboard I will being using as an example.](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjBwruziLPjAhUYoZ4KHXvPAOMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2FBB400-Solderless-Plug-BreadBoard-tie-points%2Fdp%2FB0040Z1ERO&psig=AOvVaw3gBsnIywCaxnGCU9otZBE-&ust=1563147506071953)
+### The materials needed:
 * 14 LEDs
 * 14 220 ohm 5% resistors 
 * 16 male to female jumper wires 
 * Rasberry Pi (Recommended: Raspberry Pi 3 Model B+)
 
-###LED Locations(Put the anode where the number is, not the cathode):
+### LED Locations(Put the anode where the number is, not the cathode):
 * e 30
 * f 30
 * b 28 
@@ -23,8 +23,8 @@
 * e 18
 * f 18
 
-** Resistors will be connected one right from the cathode to ground. **
-** Jumper Wires will be one underneath the resistor. **
+**Resistors will be connected one right from the cathode to ground.**
+**Jumper Wires will be one underneath the resistor.**
 
 ### Jumper wire GPIO Locations (in BOARD numbering system):
 * GROUND 1: 6
