@@ -6,7 +6,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 
 def MIDDLE_TOP():
-    GPIO.setup(12, GPIO.OUT)s
+    GPIO.setup(12, GPIO.OUT)
     GPIO.setup(7, GPIO.OUT)
     GPIO.output(12, True)
     GPIO.output(7, True)
