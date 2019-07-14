@@ -28,6 +28,7 @@ The breadboard I will be using as an example.
 **Jumper Wires will be one underneath the resistor.**
 
 ### Jumper wire GPIO Locations (in BOARD numbering system):
+You might have to change the code based on the location of your jumper wires.
 * GROUND 1: 6
 * GROUND 2: 9 
 * Rest are Power Wires:
